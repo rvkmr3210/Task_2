@@ -1,0 +1,25 @@
+Task 2: Optimise the DataBase
+
+In this Task I had used  Realm Database as well as Sqlite databse.
+
+Realm:
+Realm is a mobile database and a replacement for SQLite.
+Realm is not using SQLite as it’s engine.
+Instead it has own C++ core and aims to provide a mobile-first alternative to SQLite. 
+Realm store data in a universal, table-based format by a C++ core. 
+This is what allows Realm to allow data access from multiple languages as well as a range of ad hoc queries.
+
+The advantages of Realm over SQLite:
+> faster than SQLite (up to 10x speed up over raw SQLite for normal operations)
+> easy to use
+> object conversion handled for you
+> convenient for creating and storing data on the fly
+> very responsive team
+
+-->Firstly I had fetched details from the URL(unreal3112.16mb.com/wb1913_a.html) given using Volley
+-->Then I had Created a Object of LibraryPojo(which consists of the alphabet,and data related to that alphabet)
+-->Then I  had inserted that object into both Realm and Sqlite.And Calculated thier inserting time into database.
+-->And I had displayed the inserting time of the data of each Alphabet into databases in a RecyclerView 
+-->And Also the complete time taken to insert all the data into the Sqlite as well as in RealmdDatabase
+-->Alphabets data may not come in serial because I had requested data by looping it in for loop.
+-->so Firstly all the network request are added to the queue. After that the queue starts fetching the data from the requests.
